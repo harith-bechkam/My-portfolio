@@ -8,6 +8,7 @@
   position: fixed;
   top: 0;
   z-index: 3;
+  overflow: hidden;
   transition: all 1s ease;
 
   .wrapper {
@@ -28,19 +29,26 @@
         margin-right: 40px;
       }
 
+      &.active {
+        color: white;
+      }
+
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
 
-        @include mobile{
+        @include mobile {
           display: none;
         }
 
         .icon {
           font-size: 18px;
           margin-right: 5px;
+
         }
+
+        &.active {}
 
         span {
           font-size: 15px;
@@ -72,16 +80,21 @@
   &.active {
     background-color: $mainColor;
     color: white;
+    overflow: hidden;
 
     .hamburger {
+      overflow: hidden;
+
       span {
         &:first-child {
           background-color: white;
           transform: rotate(45deg);
         }
+
         &:nth-child(2) {
           opacity: 0;
         }
+
         &:last-child {
           background-color: white;
           transform: rotate(-45deg);

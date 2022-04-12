@@ -42,26 +42,33 @@
       id: 1,
       title: "Weather prediction Application",
       githubname:"Weather-App",
-      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyWLSzEVwbbDwql1xnMJ03ZzvJnJZgNIEQ0slW7xL7L6o4pQ6_uEGzKx_fm9aWr6BgL_w&usqp=CAU",
+      img:"https://s3.amazonaws.com/www-inside-design/uploads/2018/05/weather-app-4_feature-810x810.jpg",
     },
     {
       id: 2,
       title: "Real Time chat Application",
       githubname:"Real-Time-Chat-Application",
-      img: "https://cdn.hackernoon.com/hn-images/1*mLE5ZxhtATxrwh20SL2Tlg.png",
+      img: "https://cdn.dribbble.com/users/2125046/screenshots/6831627/message_app_2x_4x.png?compress=1&resize=400x300&vertical=top",
     },
-    // {
-    //   id: 3,
-    //   title: "Live cricket score Application",
-    //   githubname:"Live-Cricket-Score-App",
-    //   img: "https://edata.ndtv.com/twittergft/sport_automated_story/big_637511741278314938.png",
-    // },
+    {
+      id: 3,
+      title: "Login Module using JWT",
+      githubname:"login-module",
+      img: "https://img.freepik.com/free-vector/log-concept-landing-page_52683-22136.jpg?w=1060&t=st=1649765426~exp=1649766026~hmac=ff663aa13a52f247e5d23e7422acb5f5fd8f46024e5107a1968da7d7372f6311",
+    },
     {
       id: 4,
+      title: "Stripe Payment Gateway",
+      githubname:"Stripe-payment",
+      img: "https://assets.fontsinuse.com/static/use-media-items/122/121160/full-3554x2092/5f5a7954/Screenshot_2020-09-10%20Online%20payment%20processing%20for%20internet%20businesses%20-%20Stripe.png",
+    },
+    {
+      id: 5,
       title: "To-Do List",
       githubname:"todo-list",
-      img: "https://ak.picdn.net/shutterstock/videos/1012241159/thumb/7.jpg",
+      img: "https://miro.medium.com/max/1400/1*EL0RynUstH_MKqTEid9dkA.png",
     },
+    
     // {
     //   id: 5,
     //   title: "Basic Node.js Server",

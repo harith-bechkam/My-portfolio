@@ -38,7 +38,7 @@ export default function Works() {
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
-  
+
   return (
     <div className="works" id="works">
       <div
@@ -47,7 +47,7 @@ export default function Works() {
       >
         {data.map((d) => (
           <div className="container">
-            <div className="item">
+            <div className="item" style={{backgroundColor:"red"}}>
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">

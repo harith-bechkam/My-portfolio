@@ -22,7 +22,7 @@ export default function Portfolio() {
       title: "Web Apps",
     },
     {
-      title: "Mobile App",
+      title: "Mobile Apps",
       id: "mobile",
     },
     // {
@@ -74,7 +74,7 @@ export default function Portfolio() {
         {data.map((d) => (
           <a href={`https://github.com/harith-bechkam/${d.githubname}`} target="_blank">
             <div className="item">
-              <img
+              <img style={{ borderRadius: "1rem" }}
                 src={d.img}
                 alt=""
               />

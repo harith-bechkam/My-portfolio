@@ -23,13 +23,13 @@ export default function Contact() {
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2>Contact.</h2>
-        <p>feel free to write e-mail</p>
+        <h1>Contact</h1>
+        <h4>Feel free to write e-mail</h4>
         <form onSubmit={handleSubmit}>
           <input name="email" type="email" placeholder="Email" />
           <textarea name="message" placeholder="Message"></textarea>
           <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Thanks, I'll reply soon...</span>}
         </form>
       </div>
     </div>
